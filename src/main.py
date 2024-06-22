@@ -18,6 +18,9 @@ def main():
 
     simulator = PageReplacementSimulator(algorithm, num_frames)
     simulator.run(requests, directory)
+    
+    # Mostrar a sequência de páginas requeridas, caso desejado;
+    # print("\nSequência de páginas requeridas:", requests)
 
 if __name__ == "__main__":
     main()
